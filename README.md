@@ -127,3 +127,7 @@ nssm.exe set "Prysm Beacon Service" AppStderr "C:\prysm\ValidatorLog.txt"
 nssm.exe set "Prysm Beacon Service" AppRotateFiles 1
 ```
 3. To start Validator your can run ```C:\nssm-2.24\win64\nssm.exe start "Prysm Validator Service"``` or open Services and start it from there. From now on Geth will autostart at boot unless you disable the service. 
+
+## WIP
+-Windows Firewall  
+-
